@@ -205,7 +205,6 @@ read_all() {
 
 ### --- MAIN ---
 
-# Keep help/usage independent from device access; only data commands call modbus_check.
 case "$1" in
   sys)
     modbus_check
