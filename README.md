@@ -38,6 +38,8 @@ For each of the six channels, the tool can read:
 * power factor `[-]`
 * frequency `[Hz]`
 
+![JSY-MK-141G all channels console output](docs/console-all-channels.svg)
+
 # 🗂️ Project Structure
 
 ```text
@@ -140,6 +142,8 @@ python3 jsy_mk_cli.py set --addr 1 --baudrate 9600 --new-addr 2 --new-baudrate 3
 
 After changing the configuration, the device responds using the new address and/or baud rate.
 
+![JSY-MK-141G system and channel console output](docs/console-sys-channel.svg)
+
 # 🔌 Connection Options
 
 Most commands can override the local `.env` settings:
@@ -177,6 +181,8 @@ The full scan is slower, but useful when the device configuration is unknown. It
 ```text
 8N1, 8E1, 8O1, 8N2
 ```
+
+![JSY-MK-141G Modbus scan console output](docs/console-scan.svg)
 
 # 🧪 Local Demo Script
 

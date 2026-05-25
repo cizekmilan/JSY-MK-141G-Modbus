@@ -1,0 +1,77 @@
+<svg width="920" height="360" viewBox="0 0 920 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JSY-MK-141G all channels console output</title>
+  <desc id="desc">Terminal screenshot showing a JSY-MK-141G all-channel measurement table.</desc>
+  <rect width="920" height="360" rx="12" fill="#0d1117"/>
+  <rect x="0" y="0" width="920" height="42" rx="12" fill="#161b22"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="21" r="6" fill="#27c93f"/>
+  <text x="90" y="27" fill="#c9d1d9" font-family="Consolas, monospace" font-size="18">JSY-MK-141G - all channels</text>
+
+  <g font-family="Consolas, monospace" font-size="18">
+    <text x="26" y="76" fill="#58a6ff">PS&gt;</text>
+    <text x="66" y="76" fill="#c9d1d9">python3 jsy_mk_cli.py all --addr 2</text>
+
+    <g fill="#c9d1d9" text-anchor="end">
+      <text x="64" y="122">Ch</text>
+      <text x="188" y="122">Volt[V]</text>
+      <text x="318" y="122">Curr[A]</text>
+      <text x="458" y="122">Power[W]</text>
+      <text x="548" y="122">PF</text>
+      <text x="678" y="122">Freq[Hz]</text>
+    </g>
+
+    <g fill="#8b949e" text-anchor="end">
+      <text x="64" y="148">----</text>
+      <text x="188" y="148">---------</text>
+      <text x="318" y="148">---------</text>
+      <text x="458" y="148">----------</text>
+      <text x="548" y="148">-----</text>
+      <text x="678" y="148">----------</text>
+    </g>
+
+    <g fill="#c9d1d9" text-anchor="end">
+      <text x="64" y="184">1</text>
+      <text x="188" y="184">231.24</text>
+      <text x="318" y="184">0.09</text>
+      <text x="458" y="184">8</text>
+      <text x="548" y="184">0.474</text>
+      <text x="678" y="184">49.98</text>
+
+      <text x="64" y="210">2</text>
+      <text x="188" y="210">230.91</text>
+      <text x="318" y="210">0.06</text>
+      <text x="458" y="210">5</text>
+      <text x="548" y="210">0.421</text>
+      <text x="678" y="210">49.99</text>
+
+      <text x="64" y="236">3</text>
+      <text x="188" y="236">231.08</text>
+      <text x="318" y="236">0.12</text>
+      <text x="458" y="236">13</text>
+      <text x="548" y="236">0.512</text>
+      <text x="678" y="236">49.98</text>
+
+      <text x="64" y="262">4</text>
+      <text x="188" y="262">0</text>
+      <text x="318" y="262">0</text>
+      <text x="458" y="262">0</text>
+      <text x="548" y="262">0</text>
+      <text x="678" y="262">0</text>
+
+      <text x="64" y="288">5</text>
+      <text x="188" y="288">228.40</text>
+      <text x="318" y="288">0.02</text>
+      <text x="458" y="288">3</text>
+      <text x="548" y="288">1.144</text>
+      <text x="678" y="288">50.01</text>
+
+      <text x="64" y="314">6</text>
+      <text x="188" y="314">229.80</text>
+      <text x="318" y="314">0.03</text>
+      <text x="458" y="314">4</text>
+      <text x="548" y="314">0.652</text>
+      <text x="678" y="314">49.97</text>
+    </g>
+  </g>
+</svg>

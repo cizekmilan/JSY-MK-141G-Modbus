@@ -1,0 +1,23 @@
+<svg width="920" height="360" viewBox="0 0 920 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JSY-MK-141G Modbus scan console output</title>
+  <desc id="desc">Terminal screenshot showing a JSY-MK-141G Modbus scan finding one device.</desc>
+  <rect width="920" height="360" rx="12" fill="#0d1117"/>
+  <rect x="0" y="0" width="920" height="42" rx="12" fill="#161b22"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="21" r="6" fill="#27c93f"/>
+  <text x="90" y="27" fill="#c9d1d9" font-family="Consolas, monospace" font-size="18">JSY-MK-141G - Modbus scan</text>
+
+  <g font-family="Consolas, monospace" font-size="18">
+    <text x="26" y="76" fill="#58a6ff">PS&gt;</text>
+    <text x="66" y="76" fill="#c9d1d9">python3 jsy_mk_cli.py scan</text>
+
+    <text x="26" y="122" fill="#c9d1d9">Starting Modbus scan...</text>
+    <text x="26" y="154" fill="#d29922">Switching to: 9600 baud (8N1)</text>
+    <text x="26" y="186" fill="#d29922">Switching to: 19200 baud (8N1)</text>
+    <text x="26" y="218" fill="#d29922">Switching to: 38400 baud (8N1)</text>
+    <text x="26" y="250" fill="#3fb950">  Found device: addr=2 baud=38400</text>
+    <text x="26" y="282" fill="#c9d1d9">Scan finished, devices found: 1</text>
+    <text x="26" y="314" fill="#d2a8ff">{'addr': 2, 'baudrate': 38400, 'format': '8N1'}</text>
+  </g>
+</svg>

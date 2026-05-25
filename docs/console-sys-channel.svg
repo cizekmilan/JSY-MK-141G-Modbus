@@ -1,0 +1,33 @@
+<svg width="920" height="360" viewBox="0 0 920 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JSY-MK-141G system and channel console output</title>
+  <desc id="desc">Terminal screenshot showing JSY-MK-141G system information and channel 1 measurements.</desc>
+  <rect width="920" height="360" rx="12" fill="#0d1117"/>
+  <rect x="0" y="0" width="920" height="42" rx="12" fill="#161b22"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="21" r="6" fill="#27c93f"/>
+  <text x="90" y="27" fill="#c9d1d9" font-family="Consolas, monospace" font-size="18">JSY-MK-141G - system and channel</text>
+
+  <g font-family="Consolas, monospace" font-size="14">
+    <text x="26" y="66" fill="#58a6ff">PS&gt;</text>
+    <text x="62" y="66" fill="#c9d1d9">python3 jsy_mk_cli.py sys --addr 2</text>
+
+    <text x="26" y="90" fill="#3fb950">== System info ==</text>
+    <text x="26" y="108" fill="#c9d1d9">model          : </text><text x="158" y="108" fill="#d2a8ff">321</text>
+    <text x="26" y="126" fill="#c9d1d9">voltage_range  : </text><text x="158" y="126" fill="#d2a8ff">250</text>
+    <text x="26" y="144" fill="#c9d1d9">current_range  : </text><text x="158" y="144" fill="#d2a8ff">1000</text>
+    <text x="26" y="162" fill="#c9d1d9">config_raw     : </text><text x="158" y="162" fill="#d2a8ff">520</text>
+    <text x="26" y="180" fill="#c9d1d9">modbus_addr    : </text><text x="158" y="180" fill="#d2a8ff">2</text>
+    <text x="26" y="198" fill="#c9d1d9">baudrate       : </text><text x="158" y="198" fill="#d2a8ff">38400</text>
+
+    <text x="26" y="228" fill="#58a6ff">PS&gt;</text>
+    <text x="62" y="228" fill="#c9d1d9">python3 jsy_mk_cli.py ch --addr 2 --ch 1</text>
+
+    <text x="26" y="252" fill="#3fb950">== Channel 1 ==</text>
+    <text x="26" y="270" fill="#c9d1d9">voltage        : </text><text x="158" y="270" fill="#d2a8ff">231.08</text>
+    <text x="26" y="288" fill="#c9d1d9">current        : </text><text x="158" y="288" fill="#d2a8ff">0.09</text>
+    <text x="26" y="306" fill="#c9d1d9">power          : </text><text x="158" y="306" fill="#d2a8ff">8</text>
+    <text x="26" y="324" fill="#c9d1d9">power_factor   : </text><text x="158" y="324" fill="#d2a8ff">0.47</text>
+    <text x="26" y="342" fill="#c9d1d9">frequency      : </text><text x="158" y="342" fill="#d2a8ff">49.97</text>
+  </g>
+</svg>
