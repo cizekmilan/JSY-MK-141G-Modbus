@@ -225,7 +225,7 @@ The most important implementation files are:
 * `jsy_registers.py` - register addresses, scaling, decoded values, and configuration writes
 * `jsy_mk_cli.py` - command-line interface and output formatting
 
-# 📄 License
+# License
 
 This project is provided free of charge for personal, educational, and experimental use.
 
