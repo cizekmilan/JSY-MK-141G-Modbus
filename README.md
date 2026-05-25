@@ -81,6 +81,12 @@ For the optional Bash/`mbpoll` demo:
 sudo apt install mbpoll
 ```
 
+The examples below run shell scripts through `bash`, so executable permissions are not required. If you prefer running them directly, make them executable:
+
+```bash
+chmod +x _run_demo_cli.sh examples/mbpoll_demo.sh
+```
+
 # 🔧 Configuration
 
 Create a local `.env` file from the example:
@@ -100,6 +106,15 @@ TIMEOUT=1
 Configuration values can also be provided through environment variables or overridden by CLI options where supported.
 
 The Modbus slave address is passed per command with `--addr`.
+
+The example configuration assumes the factory/default connection settings:
+
+```text
+baud rate: 9600
+Modbus address: 1 (0x01)
+```
+
+If your device has already been reconfigured, update `BAUD_RATE` in `.env` and use the current device address with `--addr`.
 
 # 🚀 Usage
 
