@@ -48,7 +48,7 @@ For each of the six channels, the tool can read:
 ├── jsy_enums.py               # Device enum/value mappings
 ├── requirements.txt           # Python dependencies
 ├── .env.example               # Example local configuration
-├── _run_JSY-MK-141G.sh        # Local venv bootstrap/demo script
+├── _run_demo_cli.sh           # Local venv bootstrap/demo script
 ├── examples/
 │   └── mbpoll_demo.sh         # Optional Bash demo using mbpoll
 └── docs/
@@ -165,10 +165,10 @@ The full scan is slower, but useful when the device configuration is unknown. It
 
 # 🧪 Local Demo Script
 
-The helper script `_run_JSY-MK-141G.sh` creates or reuses a local `.venv`, installs dependencies, and runs a few demo commands.
+The helper script `_run_demo_cli.sh` creates or reuses a local `.venv`, installs dependencies, and runs a few demo commands.
 
 ```bash
-bash _run_JSY-MK-141G.sh
+bash _run_demo_cli.sh
 ```
 
 The script also checks whether an existing virtual environment still points to a valid location. This is useful if the project directory was moved.
