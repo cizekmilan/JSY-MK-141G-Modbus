@@ -8,6 +8,8 @@ This project provides a small Python command-line tool for working with the JSY-
 
 The JSY-MK-141G is a 6-channel electrical measurement module. It exposes measured values through a Modbus RTU serial interface, making it useful for small monitoring setups, Raspberry Pi projects, home-lab measurements, and other systems where electrical values need to be read programmatically.
 
+The device belongs to the JSY-MK power meter product line by [Shenzhen Jiansiyan Technologies Co., Ltd.](https://www.jsypowermeter.com/).
+
 This tool focuses on the values exposed by the device registers, including voltage, current, active power, power factor, and frequency for individual measurement channels.
 
 The main goal is to make the measured values easy to read from a Raspberry Pi or another Linux device connected to the meter through a serial/RS485 interface.
